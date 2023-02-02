@@ -1,0 +1,81 @@
+export const arrayItems = [
+  {
+    name: "Q&A",
+    id: "q&a",
+    description: "Chat with our bot and get real time answers",
+    option: {
+      model: "text-davinci-003",
+      temperature: 0,
+      max_tokens: 100,
+      top_p: 1,
+      frequency_penalty: 0.0,
+      presence_penalty: 0.0,
+    },
+  },
+  {
+    name: "Life Insurance",
+    id: "grammerCorrection",
+    description: "Learn more about life insurance products",
+    option: {
+      model: "text-davinci-003",
+      temperature: 0,
+      max_tokens: 1000,
+      top_p: 1,
+      frequency_penalty: 0.0,
+      presence_penalty: 0.0,
+    },
+  },
+  {
+    name: "Health Insurance",
+    id: "q&a",
+    description: "Learn more about health insurance products",
+    option: {
+      model: "text-davinci-003",
+      temperature: 0.7,
+      max_tokens: 1000,
+      top_p: 1.0,
+      frequency_penalty: 0.0,
+      presence_penalty: 0.0,
+    },
+  },
+  {
+    name: "Dread Disease Cover",
+    id: "q&a",
+    description: "Learn more about dread disease products",
+    option: {
+      model: "text-davinci-003",
+      temperature: 0.7,
+      max_tokens: 1000,
+      top_p: 1.0,
+      frequency_penalty: 0.0,
+      presence_penalty: 0.0,
+    },
+  },
+  {
+    name: "Short term insurance Cover",
+    id: "movieToEmoji",
+    description: "Learn more about short term cover products",
+    option: {
+      model: "text-davinci-003",
+      temperature: 0.7,
+      max_tokens: 1000,
+      top_p: 1,
+      frequency_penalty: 0.0,
+      presence_penalty: 0.0,
+    },
+  },
+  {
+    name: "Write Me A Joke",
+    id: "q&a",
+    description: "A fun demo of this solution's flexibility",
+    option: {
+      model: "text-davinci-003",
+      temperature: 0.7,
+      max_tokens: 1000,
+      top_p: 1.0,
+      frequency_penalty: 0.0,
+      presence_penalty: 0.0,
+    },
+  },
+  
+];
